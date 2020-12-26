@@ -1,0 +1,1 @@
+Simple Program To Print Table Without For Loop
