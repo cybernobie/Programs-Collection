@@ -1,9 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>
-#include<process.h>
-#include<string.h>
-
 #define f(x) 1/(1+x)
 void main()
 {
@@ -24,7 +21,6 @@ for(i=1;i<n;i++)
  j=a+i*h;
  integration=integration + 2 * f(j);
 }
-
 integration=integration * h/2;
 printf("\nValue Of Integration is : %.3f",integration);
 printf("\nPress Any Key To Exit!");
