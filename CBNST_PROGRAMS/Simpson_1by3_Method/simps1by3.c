@@ -9,7 +9,7 @@ int main()
 {
  float a, b, integration=0.0, h, k;
  int i, n;
-
+ clrscr();
  printf("Enter Lower limit of integration: ");
  scanf("%f", &a);
  printf("Enter Upper limit of integration: ");
