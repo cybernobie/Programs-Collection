@@ -15,7 +15,7 @@ printf("\nLower Limit (a): ");
 scanf("%f",&a);
 printf("\nUpper Limit (b): ");
 scanf("%f",&b);
-printf("\nEnter Number Interval : ");
+printf("\nEnter Number Of Interval : ");
 scanf("%d",&n);
 h=( b - a )/n;
 integration=f(a)+f(b);
